@@ -15,6 +15,6 @@ const countdown = setInterval(function() {
     if (diferencia < 0) {
         clearInterval(countdown);
         document.getElementById("countdown").style.display = "none";
-        document.getElementById("mensaje").classList.add("visible");
-    }
+        document.getElementById("mensaje").style.display = "block";    
+}
 }, 1000);
