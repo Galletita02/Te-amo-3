@@ -11,3 +11,17 @@ body {
     font-weight: bold;
     color: #ff4081;
 }
+.chica {
+    width: 150px;
+    height: auto;
+}
+
+.mediana {
+    width: 300px;
+    height: auto;
+}
+
+.grande {
+    width: 600px;
+    height: auto;
+}
